@@ -1,9 +1,9 @@
 {
-  "build": 6,
-  "version": "2.3",
-  "notes": "Settings now always shows the right choices for the ring, center and dots, and the selected profile and color highlight correctly.",
-  "url": "https://github.com/nilloc0/ringlet-releases/releases/download/v2.3/Ringlet-2.3.dmg",
-  "sha256": "019a58fa59ac76e09926b3e47e942fed9a413e09e21c7556a700ae95c789849a",
-  "signature": "4F+ephiOldMhiC8cUUSijSWEahsyroXCEQW8Ut+TNnDfs6Z47eVze/ksDWqPz05d6XlxlRSy0L2w0cLu6IUDCg==",
+  "build": 8,
+  "version": "3.0",
+  "notes": "Automatic profiles, live power draw, a Running Hot moment, accessory battery alerts, a new app icon, and a big round of fixes.",
+  "url": "https://github.com/nilloc0/ringlet-releases/releases/download/v3.0/Ringlet-3.0.dmg",
+  "sha256": "44da10c3f7e31717f6afb81d8b7353d6aeeb6b71c584bac35584a289aa1a6926",
+  "signature": "5miqxmW57aGbNOwo2Snx38Fonm/pST5c7diAPv02dcqxYfwOIP22XtNvuvrjavQpUuyrG2K0qqYZu20F++FgDw==",
   "revoked": []
 }
