@@ -1,0 +1,47 @@
+Ringlet License Agreement
+Copyright (c) 2026 Collin Miller. All rights reserved.
+
+Ringlet is licensed to you, not sold. By installing or using it you agree to
+these terms. If you don't agree, don't install or use it.
+
+1. TRIAL
+   You may use Ringlet free for 14 days to try it out. After that you need a
+   license key to keep using it.
+
+2. YOUR LICENSE KEY
+   A license key is for one person. You may use it on Macs you own or control.
+   Don't share, sell, give away or publish your key.
+
+3. WHAT YOU MAY NOT DO
+   You may not, and may not help anyone else:
+   - copy, share, upload, sell, rent or redistribute Ringlet or its installer,
+     except by linking to the official download page;
+   - remove, bypass or tamper with the trial or the license key check;
+   - decompile, disassemble or reverse engineer Ringlet, except where the law
+     allows it no matter what this agreement says;
+   - modify Ringlet or make apps based on it;
+   - remove or change any copyright or license notices.
+
+4. REVOKING KEYS
+   Keys that are shared, leaked, refunded or used against these terms can be
+   revoked. A revoked key stops working after Ringlet next checks for updates.
+
+5. UPDATES
+   Updates are offered from time to time. They are covered by this agreement
+   unless they come with their own terms.
+
+6. NO WARRANTY
+   Ringlet is provided "as is", without any warranty of any kind. You use it at
+   your own risk.
+
+7. LIMIT OF LIABILITY
+   To the extent the law allows, the developer is not liable for any damages
+   that come from using or not being able to use Ringlet.
+
+8. ENDING THIS AGREEMENT
+   This agreement ends automatically if you break it. When it ends, stop using
+   Ringlet and delete it.
+
+Ringlet's source code is not public and is not covered by any open source
+license. Downloading the app from GitHub does not grant any rights beyond
+this agreement.

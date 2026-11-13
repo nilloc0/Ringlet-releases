@@ -1,0 +1,7 @@
+{
+  "build": 4,
+  "version": "2.1",
+  "notes": "Update banner in the panel, and Ringlet now checks for updates every few hours and when your Mac wakes up.",
+  "url": "https://github.com/nilloc0/ringlet-releases/releases/download/v2.1/Ringlet-2.1.dmg",
+  "revoked": []
+}
