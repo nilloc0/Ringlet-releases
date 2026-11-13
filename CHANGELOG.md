@@ -1,5 +1,11 @@
 # Changelog
 
+## Ringlet 2.3 (build 6)
+
+### Fixed
+- Settings showed the wrong choices for the ring, center and dots (for example "Battery" while the ring was showing memory). They now always match the icon and update the moment anything changes.
+- The selected profile and color stayed highlighted after picking a different one.
+
 ## Ringlet 2.2 (build 5)
 
 ### New

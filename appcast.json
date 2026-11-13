@@ -1,9 +1,9 @@
 {
-  "build": 5,
-  "version": "2.2",
-  "notes": "Updates now install by themselves: click Install and Ringlet downloads, checks and restarts. No browser or DMG needed.",
-  "url": "https://github.com/nilloc0/ringlet-releases/releases/download/v2.2/Ringlet-2.2.dmg",
-  "sha256": "c41580f1f7541562dc30a9a788c3dedd8c31a34088ad682578b5e2fb6e01de48",
-  "signature": "uP5Hunqd75oue9gA27iyiaRbJu5xKBlCpodINXN8/Px6MtUKflZ7uiHDRLyFy1acCXaOk0c9v1Q1+X2H8dwwDA==",
+  "build": 6,
+  "version": "2.3",
+  "notes": "Settings now always shows the right choices for the ring, center and dots, and the selected profile and color highlight correctly.",
+  "url": "https://github.com/nilloc0/ringlet-releases/releases/download/v2.3/Ringlet-2.3.dmg",
+  "sha256": "019a58fa59ac76e09926b3e47e942fed9a413e09e21c7556a700ae95c789849a",
+  "signature": "4F+ephiOldMhiC8cUUSijSWEahsyroXCEQW8Ut+TNnDfs6Z47eVze/ksDWqPz05d6XlxlRSy0L2w0cLu6IUDCg==",
   "revoked": []
 }
