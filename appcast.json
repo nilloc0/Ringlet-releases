@@ -1,9 +1,9 @@
 {
-  "build": 8,
-  "version": "3.0",
-  "notes": "Automatic profiles, live power draw, a Running Hot moment, accessory battery alerts, a new app icon, and a big round of fixes.",
-  "url": "https://github.com/nilloc0/ringlet-releases/releases/download/v3.0/Ringlet-3.0.dmg",
-  "sha256": "44da10c3f7e31717f6afb81d8b7353d6aeeb6b71c584bac35584a289aa1a6926",
-  "signature": "5miqxmW57aGbNOwo2Snx38Fonm/pST5c7diAPv02dcqxYfwOIP22XtNvuvrjavQpUuyrG2K0qqYZu20F++FgDw==",
+  "build": 9,
+  "version": "3.1",
+  "notes": "Make Desk, On the Go and Quiet your own: changes now save to each profile, with a Reset button.",
+  "url": "https://github.com/nilloc0/ringlet-releases/releases/download/v3.1/Ringlet-3.1.dmg",
+  "sha256": "72376d5f30bee620549b13a43a72b86ef36f811572debc27205765e6d334fd35",
+  "signature": "WwYL3Vrb7nLR/Av9OzlhaVrA1+fFBWh76lTEOVCe6JjlEtmZqJIVEEsEnv8J0u67XZlhJSpa2xHwNA5+1mbFBA==",
   "revoked": []
 }

@@ -1,56 +1,60 @@
-# Giving DuoBar to other people
+# Building and shipping Ringlet
+
+## Everyday builds
+
+```
+./build.sh
+```
+
+Builds a production copy of the next unreleased version (the version and build number in
+`Info.plist`), puts it in /Applications and restarts it. The copy it replaces is moved to
+`backups/` (only one backup is kept). If a build is broken, `./rollback.sh` swaps the backup
+back in.
+
+`./build.sh --dev` builds a separate copy with the developer test hooks (`--render`,
+`--snapshot`, `--profile-test` and friends) into `build/dev/`. It never installs anything.
+
+## Releasing
+
+```
+./release.sh 3.1 "Short line shown in the in-app update banner."
+```
+
+Builds the DMG into ~/Downloads and writes a signed `appcast.json`. Then:
+
+1. GitHub > Releases > Draft a new release, tag `v3.1`, attach the DMG, paste the notes, publish.
+2. Upload the new `appcast.json` to the repo. Do this last: it's what tells everyone's app
+   the update exists.
+
+After a release, `release.sh` moves `Info.plist` on to the next build number so the next
+`./build.sh` is the following unreleased version.
 
 ## Issuing keys
 
-The private key lives at `~/.duobar/private.key`. **Back it up now.** If you lose it you
-cannot issue keys that existing copies of the app accept, and if someone else gets it they
-can mint free keys forever.
+The signing key lives at `~/.ringlet/private.key`. **Keep a copy somewhere off this Mac.**
+If you lose it you can't issue license keys or sign updates that existing copies accept.
+If someone else gets it, they can do both.
 
 ```
 ./build/keygen issue --name "Jax" --type D --days 90    # a tester, expires in 90 days
 ./build/keygen issue --name "jane@email.com"            # a sale, never expires
 ./build/keygen check <key>                              # read a key back
+./build/keygen list                                     # everything issued so far
 ```
 
 Types: `S` standard (a sale), `D` developer (a tester), `F` founder (yours).
-Leave `--days` off for a key that never expires.
 
-## Sending a build to testers
+## Names that still say DuoBar (on purpose)
 
-```
-./release.sh 1.1 "Fixed the size slider."
-```
-
-That bumps the build number, rebuilds, zips the app, and prints the JSON to publish.
-Upload the zip somewhere public, then put that JSON at the URL in `Updates.feedURL`.
-GitHub Releases works and costs nothing.
-
-While testing you can point the app anywhere:
-
-```
-defaults write com.duobar.app updateFeed "https://raw.githubusercontent.com/<you>/duobar/main/appcast.json"
-```
-
-The app checks once a day and on launch. If the `build` number in the JSON is higher than
-the running one, it posts a notification and adds a download row to the menu. It does not
-install anything by itself, so a bad release can never break someone's copy.
-
-## The Gatekeeper problem
-
-Until the app is signed with a Developer ID certificate and notarized (which needs the
-$99/year Apple Developer Program), macOS will refuse to open it on anyone else's Mac.
-
-For friends testing, tell them to run this once after unzipping:
-
-```
-xattr -dr com.apple.quarantine /Applications/DuoBar.app
-```
-
-That is fine between friends who trust you. It is **not** acceptable to ask paying
-customers to do it, so notarization has to happen before you sell a single copy.
+The bundle ID `com.duobar.app` (which is also the settings domain), the keychain trial
+record and the menu bar position key keep the old name. Changing them would wipe
+everyone's settings, licenses, trial dates and icon position, and the updater only
+installs builds with the same bundle ID.
 
 ## Before charging anyone
 
-1. Apple Developer Program, $99/year, for Developer ID signing and notarization
-2. A merchant of record (Paddle or Lemon Squeezy) so sales tax and VAT are their problem
-3. Set `buyURL` and `updateFeed` to real addresses
+1. Apple Developer Program, $99/year, for Developer ID signing and notarization. Without it,
+   macOS warns about an unidentified developer and asks for permissions again after updates.
+   `build.sh` picks up a Developer ID certificate automatically once it's in your keychain.
+2. A merchant of record (Paddle or Lemon Squeezy) so sales tax is their problem.
+3. A real store page for the Buy button (`buyURL`).

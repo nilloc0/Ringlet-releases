@@ -1,5 +1,14 @@
 # Changelog
 
+## Ringlet 3.1 (build 9)
+
+### New
+- **Make the profiles your own.** Desk, On the Go and Quiet are now yours to set up. Pick a profile in Settings > Icon and change the ring, center, dots, color or ring style: the changes save to that profile, so it comes back exactly that way next time, whether you pick it or automatic profiles switch to it. A Reset button puts any profile back to how it shipped.
+- If you had a custom setup from an older version, a Save as menu lets you keep it as one of the three profiles.
+
+### Improved
+- The last DuoBar names are gone: Ringlet's logs and support files now live in folders named Ringlet. They move over by themselves the first time 3.1 opens.
+
 ## Ringlet 3.0 (build 8)
 
 The biggest update since the first release. Ringlet now adapts to where you are, shows more of what's going on inside your Mac, and the whole app got a polish pass.
