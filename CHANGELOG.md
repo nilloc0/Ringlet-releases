@@ -1,5 +1,11 @@
 # Changelog
 
+## Ringlet 2.2 (build 5)
+
+### New
+- **Updates install themselves.** When a new version is out, click Install in the panel, the right-click menu or Settings > License. Ringlet downloads it, checks it's genuine, swaps itself out and restarts. No browser, no DMG, no Terminal command.
+- Every update is signed. If a download doesn't match what was published, Ringlet refuses to install it.
+
 ## Ringlet 2.1 (build 4)
 
 ### New

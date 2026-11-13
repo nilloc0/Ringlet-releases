@@ -1,7 +1,9 @@
 {
-  "build": 4,
-  "version": "2.1",
-  "notes": "Update banner in the panel, and Ringlet now checks for updates every few hours and when your Mac wakes up.",
-  "url": "https://github.com/nilloc0/ringlet-releases/releases/download/v2.1/Ringlet-2.1.dmg",
+  "build": 5,
+  "version": "2.2",
+  "notes": "Updates now install by themselves: click Install and Ringlet downloads, checks and restarts. No browser or DMG needed.",
+  "url": "https://github.com/nilloc0/ringlet-releases/releases/download/v2.2/Ringlet-2.2.dmg",
+  "sha256": "c41580f1f7541562dc30a9a788c3dedd8c31a34088ad682578b5e2fb6e01de48",
+  "signature": "uP5Hunqd75oue9gA27iyiaRbJu5xKBlCpodINXN8/Px6MtUKflZ7uiHDRLyFy1acCXaOk0c9v1Q1+X2H8dwwDA==",
   "revoked": []
 }
