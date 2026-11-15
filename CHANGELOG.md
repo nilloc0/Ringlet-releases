@@ -1,5 +1,14 @@
 # Changelog
 
+## Ringlet 3.2 (build 10)
+
+### New
+- **Charge to Full Now.** When macOS is holding your battery at 80% (Optimized Battery Charging or a Charge Limit), the Battery page and the right-click menu show a Charge to Full Now button. It's Apple's own override, so it lasts until you unplug and doesn't change your settings. No need to keep Apple's battery icon around just for this.
+
+### Improved
+- **A simpler right-click menu.** It's down to quick actions: volume and brightness sliders, switch profiles, mute sound or the microphone, open Settings, quit. Wi-Fi and outputs are in the panel (left click), and everything else (icon size, fold delay, hover, alerts, moments, license, updates, troubleshooting) is in the Settings window.
+- The Welcome Tour moved to Settings > General.
+
 ## Ringlet 3.1 (build 9)
 
 ### New
