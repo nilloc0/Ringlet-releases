@@ -1,9 +1,9 @@
 {
-  "build": 15,
-  "version": "3.5",
-  "notes": "Ringlet on your lock screen (beta), Charge to Full Now that respects your Charge Limit, OLED Care and Liquid Glass.",
-  "url": "https://github.com/nilloc0/ringlet-releases/releases/download/v3.5/Ringlet-3.5.dmg",
-  "sha256": "97a6676c40b419bc4175c3a0fc7ae02839277e01b18d262a15a00780e94bb11e",
-  "signature": "Uelki6P6l0K3e6ZxKMK/Fa77yr5eqC8oMpuPvNx/TuPMnMLFsJc9nGcnVAXtCVY+gcTL9EG9O72yyfnrksuSAQ==",
+  "build": 16,
+  "version": "3.6",
+  "notes": "Fixes the dark square around the lock screen ring, plus a What's New window after updates.",
+  "url": "https://github.com/nilloc0/ringlet-releases/releases/download/v3.6/Ringlet-3.6.dmg",
+  "sha256": "861754347804c9e104f8428e6e3a3f476f761a9e4f2a16bb21f7c1cbd023fab5",
+  "signature": "GHtzCSZBuMsDGEurO0G7i7E2xcgS+e2/GqKb6Ke6v8mK4oqFUFuuMfZBKjnTsmq/Tv6J9ra8OgKgjBykBM4fDg==",
   "revoked": []
 }

@@ -1,0 +1,55 @@
+Ringlet
+=======
+
+Battery, Wi-Fi, sound and system stats in one menu bar ring.
+
+- Click the ring to open the panel. Click a row to dig in: Wi-Fi networks,
+  Bluetooth devices, sound output, battery health, network, CPU, memory, disk.
+- Right click for quick controls: volume, brightness, profiles, mute.
+- The ring plays short animations ("moments") when you plug in, mute, lose the
+  network, connect AirPods or turn on a Focus.
+- Settings (right click > Settings) is where you set up your profiles, the
+  lock screen, Liquid Glass tint and moments.
+
+
+INSTALLING
+----------
+
+1. Drag Ringlet to the Applications folder in this window.
+
+2. Ringlet isn't notarized by Apple yet, so the first time, macOS will refuse
+   to open it. Open Terminal (Applications > Utilities), paste this line and
+   press return:
+
+       xattr -dr com.apple.quarantine /Applications/Ringlet.app
+
+   That's the only time you need Terminal. Updates install from inside Ringlet.
+
+3. Open Ringlet from Applications. A short welcome walks you through the rest.
+
+Updating from an older version? Just click Install when Ringlet offers the
+update. Coming from DuoBar? Quit it, drag it to the Trash, then install
+Ringlet. Your license and settings carry over.
+
+
+PERMISSIONS
+-----------
+
+macOS may ask for Bluetooth (your devices and their batteries), Location (only
+so macOS will show your Wi-Fi network's name), Focus (to know when one is on)
+and control of Music or Spotify (for the lock screen player). Ringlet does
+nothing else with them. After an update, macOS may ask again: click Allow.
+
+
+YOUR LICENSE KEY
+----------------
+
+Settings > License > Manage License, paste your key, click Activate. Without a
+key you get a 14 day trial with everything working.
+
+
+IF SOMETHING GOES WRONG
+-----------------------
+
+Settings > License > Copy Report, then send it over. It has the log and any
+crash details.
