@@ -1,9 +1,9 @@
 {
-  "build": 10,
-  "version": "3.2",
-  "notes": "Charge to Full Now is back, plus a simpler right-click menu.",
-  "url": "https://github.com/nilloc0/ringlet-releases/releases/download/v3.2/Ringlet-3.2.dmg",
-  "sha256": "b09bbfa4ce33586c234b6eff7440abea54872c12f3f4df3809907a05bfb1d520",
-  "signature": "+/hoQxv1tq695BXcJsfEroByM0JqwTSKiK/PkjqfVOJ012W54tMxn68eE84lJnEDBdYh+5bjHsw8THoyX/Q3CA==",
+  "build": 15,
+  "version": "3.5",
+  "notes": "Ringlet on your lock screen (beta), Charge to Full Now that respects your Charge Limit, OLED Care and Liquid Glass.",
+  "url": "https://github.com/nilloc0/ringlet-releases/releases/download/v3.5/Ringlet-3.5.dmg",
+  "sha256": "97a6676c40b419bc4175c3a0fc7ae02839277e01b18d262a15a00780e94bb11e",
+  "signature": "Uelki6P6l0K3e6ZxKMK/Fa77yr5eqC8oMpuPvNx/TuPMnMLFsJc9nGcnVAXtCVY+gcTL9EG9O72yyfnrksuSAQ==",
   "revoked": []
 }
